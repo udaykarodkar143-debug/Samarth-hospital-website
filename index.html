@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samarth Hospital | Umerkhed</title>
+<meta name="description" content="Samarth Hospital, Mahagaon Road, Umerkhed, Yavatmal, Maharashtra. General Medicine, Diabetes Care, Orthopaedic Care and Emergency Care.">
+<style>
+:root{
+  --navy:#123b63; --blue:#1769aa; --light:#f4f8fb; --gold:#c9a45c;
+  --text:#243447; --muted:#667788; --white:#fff; --shadow:0 14px 40px rgba(18,59,99,.12);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.topbar{background:var(--navy);color:#fff;text-align:center;padding:9px 18px;font-size:14px}
+nav{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 3px 18px rgba(0,0,0,.08)}
+.navin{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:14px 22px}
+.brand{display:flex;align-items:center;gap:12px}
+.brandmark{width:46px;height:46px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:23px}
+.brand h1{margin:0;color:var(--navy);font-size:22px;letter-spacing:.4px}
+.brand small{display:block;color:var(--muted);font-size:11px}
+.links{display:flex;gap:22px;font-size:14px;font-weight:600;color:#31485d}
+.links a:hover{color:var(--blue)}
+.hero{background:linear-gradient(120deg,#eff7fc,#fff);padding:76px 22px 62px}
+.hero-grid{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}
+.eyebrow{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:1.8px;font-size:13px}
+.hero h2{font-size:54px;line-height:1.05;color:var(--navy);margin:12px 0 18px}
+.hero p{font-size:19px;color:var(--muted);max-width:650px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{padding:13px 20px;border-radius:9px;font-weight:700;display:inline-block}
+.primary{background:var(--blue);color:#fff}
+.secondary{border:1px solid #b8c9d8;color:var(--navy);background:#fff}
+.hero-photo{width:100%;height:430px;object-fit:cover;border-radius:22px;box-shadow:var(--shadow)}
+.section{padding:75px 22px}
+.section.alt{background:var(--light)}
+.container{max-width:1180px;margin:auto}
+.section-title{text-align:center;margin-bottom:42px}
+.section-title span{color:var(--blue);font-weight:800;font-size:13px;letter-spacing:1.5px;text-transform:uppercase}
+.section-title h2{font-size:35px;color:var(--navy);margin:8px 0}
+.section-title p{color:var(--muted);max-width:720px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.card{background:#fff;border-radius:18px;padding:28px;box-shadow:var(--shadow);border:1px solid #e8eef3}
+.card h3{margin:0 0 6px;color:var(--navy);font-size:23px}
+.card .role{color:var(--blue);font-weight:700;margin-bottom:15px}
+.card ul{margin:12px 0 0;padding-left:20px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.service{background:#fff;padding:24px;border-radius:16px;border:1px solid #e5edf4;box-shadow:0 7px 25px rgba(18,59,99,.07)}
+.service h3{margin:0 0 10px;color:var(--navy);font-size:19px}
+.service ul{margin:0;padding-left:19px;color:#506273}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.gallery img{width:100%;height:390px;object-fit:cover;border-radius:18px;box-shadow:var(--shadow)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.contactbox{background:var(--navy);color:#fff;padding:35px;border-radius:20px}
+.contactbox h3{font-size:26px;margin-top:0}
+.contactbox p{margin:9px 0}
+.mapbox{background:#edf4f8;border-radius:20px;padding:35px;display:flex;flex-direction:column;justify-content:center}
+.mapbox h3{color:var(--navy);margin-top:0}
+footer{background:#0c2c49;color:#dbe8f2;text-align:center;padding:30px 20px}
+.mobilebar{display:none}
+@media(max-width:850px){
+ .links{display:none}.hero-grid,.contact{grid-template-columns:1fr}.hero{padding-top:45px}.hero h2{font-size:42px}.hero-photo{height:330px}
+ .cards,.services{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:300px}
+ .mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;background:#fff;z-index:30;box-shadow:0 -4px 18px rgba(0,0,0,.12)}
+ .mobilebar a{flex:1;text-align:center;padding:13px 5px;font-size:12px;font-weight:800;color:var(--navy)}
+ .mobilebar a:first-child{background:var(--blue);color:#fff}
+ body{padding-bottom:52px}
+}
+</style>
+</head>
+<body>
+<div class="topbar">Samarth Hospital • Mahagaon Road, Umerkhed, Yavatmal, Maharashtra</div>
+
+<nav>
+  <div class="navin">
+    <a class="brand" href="#home">
+      <div class="brandmark">✚</div>
+      <div><h1>SAMARTH HOSPITAL</h1><small>General Medicine • Orthopaedic Care • Emergency Care</small></div>
+    </a>
+    <div class="links">
+      <a href="#about">About</a><a href="#doctors">Doctors</a><a href="#services">Services</a>
+      <a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">Patient-centred healthcare in Umerkhed</div>
+      <h2>Compassionate Care. Expert Medical Attention.</h2>
+      <p>Samarth Hospital provides general medical care, diabetes care, orthopaedic care and emergency services for patients in Umerkhed and surrounding areas.</p>
+      <div class="cta">
+        <a class="btn primary" href="tel:+918669882130">Call 8669882130</a>
+        <a class="btn secondary" href="https://wa.me/918669882130">WhatsApp</a>
+        <a class="btn secondary" href="#contact">Book / Enquire</a>
+      </div>
+    </div>
+    <img class="hero-photo" src="images/consultation-room-1.jpeg" alt="Samarth Hospital consultation room">
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-title">
+      <span>About Samarth Hospital</span>
+      <h2>Modern, comfortable clinical care</h2>
+      <p>Our hospital combines a professional clinical environment with accessible medical care and specialist consultation.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Our Location</h3>
+        <p><strong>Mahagaon Road, Umerkhed</strong><br>Taluka Umerkhed, District Yavatmal, Maharashtra</p>
+        <p>For appointments and enquiries:<br><strong>+91 8669882130</strong><br><strong>+91 9421773149</strong></p>
+      </div>
+      <div class="card">
+        <h3>Our Focus</h3>
+        <p>General medicine, diabetes management, emergency care and orthopaedic services, with an emphasis on clear communication and patient-focused treatment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="doctors">
+  <div class="container">
+    <div class="section-title">
+      <span>Our Doctors</span><h2>Meet the medical team</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Dr. Uday Vitthalrao Karodkar</h3>
+        <div class="role">General Physician • Diabetes Specialist • Emergency Medicine</div>
+        <p><strong>Qualifications</strong></p>
+        <ul>
+          <li>MBBS</li>
+          <li>Post Graduate Diploma in Emergency Medicine (PGDEMD)</li>
+          <li>Fellowship in Diabetes Mellitus (FIDM)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Dr. Abhijeet Gore</h3>
+        <div class="role">MBBS, DNB (Orthopaedics)<br>Orthopaedic Specialist</div>
+        <p>Orthopaedic consultation and care for fractures, joint and musculoskeletal problems, accident-related injuries and related conditions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-title">
+      <span>Services</span><h2>Medical care under one roof</h2>
+      <p>The service categories below are organized from the services shown in your hospital materials.</p>
+    </div>
+    <div class="services">
+      <div class="service"><h3>🩺 General Medicine</h3><ul><li>General physician consultation</li><li>Internal medicine & primary care</li><li>Hypertension & thyroid care</li><li>Respiratory & digestive complaints</li><li>Common acute illnesses</li></ul></div>
+      <div class="service"><h3>🩸 Diabetes & Preventive Care</h3><ul><li>Diabetes management</li><li>Blood sugar monitoring</li><li>Weight management</li><li>Health check-ups</li><li>Lifestyle counselling</li></ul></div>
+      <div class="service"><h3>🚑 Emergency & Acute Care</h3><ul><li>Emergency consultation</li><li>Accident & trauma care</li><li>ECG</li><li>Observation / acute care</li><li>Minor procedures</li></ul></div>
+      <div class="service"><h3>🦴 Orthopaedic Care</h3><ul><li>Fracture management</li><li>Joint & knee pain</li><li>Back & neck pain</li><li>Arthritis care</li><li>Plaster application/removal</li></ul></div>
+      <div class="service"><h3>🦠 Infectious Diseases</h3><ul><li>Dengue</li><li>Malaria</li><li>Typhoid</li><li>Chikungunya</li><li>Jaundice & common infections</li></ul></div>
+      <div class="service"><h3>🩹 Procedures & Wound Care</h3><ul><li>Dressing</li><li>Suturing</li><li>Suture removal</li><li>Minor procedures</li><li>Wound care</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="gallery">
+  <div class="container">
+    <div class="section-title"><span>Our Hospital</span><h2>Clinical environment</h2><p>Photos supplied for the Samarth Hospital website.</p></div>
+    <div class="gallery">
+      <img src="images/consultation-room-1.jpeg" alt="Samarth Hospital consultation room">
+      <img src="images/consultation-room-2.jpeg" alt="Samarth Hospital consultation room">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-title"><span>Contact</span><h2>Appointments & enquiries</h2></div>
+    <div class="contact">
+      <div class="contactbox">
+        <h3>Samarth Hospital</h3>
+        <p>📍 Mahagaon Road, Umerkhed,<br>Taluka Umerkhed, District Yavatmal,<br>Maharashtra</p>
+        <p>📞 <a href="tel:+918669882130">+91 8669882130</a></p>
+        <p>📞 <a href="tel:+919421773149">+91 9421773149</a></p>
+        <div class="cta">
+          <a class="btn primary" style="background:#fff;color:#123b63" href="tel:+918669882130">Call Hospital</a>
+          <a class="btn secondary" href="https://wa.me/918669882130">WhatsApp</a>
+        </div>
+      </div>
+      <div class="mapbox">
+        <h3>Find Us</h3>
+        <p>Mahagaon Road, Umerkhed, Yavatmal, Maharashtra.</p>
+        <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Samarth%20Hospital%20Mahagaon%20Road%20Umerkhed%20Yavatmal" target="_blank">Open in Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>SAMARTH HOSPITAL</strong><br>
+  General Medicine • Orthopaedic Care • Emergency Care<br>
+  Mahagaon Road, Umerkhed, Yavatmal, Maharashtra
+</footer>
+
+<div class="mobilebar">
+  <a href="tel:+918669882130">📞 CALL</a>
+  <a href="https://wa.me/918669882130">💬 WHATSAPP</a>
+  <a href="#contact">📅 APPOINTMENT</a>
+</div>
+</body>
+</html>
